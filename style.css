@@ -2,12 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+.header-size{
+    font-size: 30px;
+}
 h1{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .Name-color{
-    color: rgb(243, 49, 162);
+    color: rgb(219, 79, 126);
+    font-family: 'Poppins', sans-serif;
 }
 .div-area{
     width: 25%;
@@ -31,11 +35,13 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: rgb(243, 49, 162);
-    padding: 10px; 20px;
+    color:white;
+    background-image: linear-gradient(45deg, rgb(236, 34, 135),rgb(233, 95, 114));
+    padding: 20px;
+    margin: 10px;
     border-radius: 5px;
-    color: White;
-    font-weight: 700;
+    font-weight: 300;
+    
 }
 
 .bioghraphy-bg{
@@ -94,8 +100,9 @@ section{
 }
 #link-box{
     text-decoration: none;
-    background-color: rgb(243, 49, 162);
-    padding: 15px; 20px;
+    background-image: linear-gradient(45deg, rgb(236, 34, 135),rgb(233, 95, 114));
+    padding: 15px; 35px;
+    margin: 10px;
     border-radius: 5px;
     color: White;
     font-weight: 900;
@@ -106,5 +113,36 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 400px;
 }
+#footer{
+    background-image: url("images/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.boder-box{
+    color:white;
+    background-image: linear-gradient(45deg, rgb(236, 34, 135),rgb(233, 95, 114));
+    padding: 20px;
+    margin: 100px;
+    width: 45%;
+    height: 20%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}   
+.size{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+}
+
+ 
