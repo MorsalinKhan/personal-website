@@ -7,7 +7,7 @@ h1{
 }
 
 .Name-color{
-    color: orange;
+    color: rgb(243, 49, 162);
 }
 .div-area{
     width: 25%;
@@ -31,12 +31,13 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(lightSalmon,tomato);
+    background-color: rgb(243, 49, 162);
     padding: 10px; 20px;
     border-radius: 5px;
     color: White;
     font-weight: 700;
 }
+
 .bioghraphy-bg{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
@@ -61,4 +62,49 @@ section{
     margin-left: 0px;
     padding-bottom: 0px;
 }
-
+.image-fixing{
+    width: 20%;
+    height: 10%;
+    position: relative;
+    margin-left: 18%;
+    
+}
+#images-fixing2{
+    margin-left: 1%
+}
+#images-fixing3{
+    margin-left: 1%;
+}
+.header{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 30px;
+}
+.middle{
+    text-align: center;
+}
+.middle2{
+    text-align: center;
+}
+.size-1{
+    font-size: 10px;
+}
+.size-2{
+    font-size: 25px;
+}
+#link-box{
+    text-decoration: none;
+    background-color: rgb(243, 49, 162);
+    padding: 15px; 20px;
+    border-radius: 5px;
+    color: White;
+    font-weight: 900;
+    border:20%;
+}
+#latest-work-bg{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
